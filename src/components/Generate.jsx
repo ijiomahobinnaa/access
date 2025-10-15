@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const API = import.meta.env.VITE_API
+const API = import.meta.env.VITE_API_URL
 
 export default function Generate() {
   const [count, setCount] = useState(10)
