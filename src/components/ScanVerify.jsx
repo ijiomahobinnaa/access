@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Html5QrcodeScanner } from 'html5-qrcode'
 
-const API = import.meta.env.VITE_API_URL
+const API = import.meta.env.VITE_API_URL || '/api'
 
 export default function ScanVerify() {
   const scannerRef = useRef(null)
